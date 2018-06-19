@@ -1,0 +1,54 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - lazo > hapi > iron > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > crumb > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > catbox-memory > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > cryptiles > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > catbox > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > catbox > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > shot > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > topo > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > joi > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > joi > topo > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > crumb > cryptiles > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > iron > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > iron > cryptiles > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > wreck > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > wreck > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > kilt > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > statehood > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > statehood > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > statehood > cryptiles > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > statehood > iron > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > statehood > iron > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
+    - lazo > hapi > statehood > iron > cryptiles > boom > hoek:
+        patched: '2018-06-19T07:08:10.886Z'
