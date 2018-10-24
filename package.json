@@ -25,15 +25,19 @@
   },
   "github": "https://github.com/lazojs/todomvc",
   "dependencies": {
-    "lazo": "2.2.3-alpha"
+    "lazo": "2.2.3-alpha",
+    "snyk": "^1.104.2"
   },
   "scripts": {
-    "start": "lazo start ."
+    "start": "lazo start .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "maintainers": [
     {
       "name": "Jason Strimpel",
       "email": "jstrimpel@gmail.com"
     }
-  ]
+  ],
+  "snyk": true
 }
